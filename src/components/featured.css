@@ -1,0 +1,37 @@
+.section-featured {
+  background: #FD7F32;
+  padding: 1rem 1rem;
+  margin-top: 100px;
+  width: 100%;
+}
+
+.section-second {
+/* background-color: aqua; */
+width: 100%;
+margin: auto;
+}
+
+.featured {
+margin: 4rem auto;
+display: grid;
+gap: 2.5rem;
+/* width: 300px; */
+/* background-color: blueviolet; */
+}
+
+.featured-img {
+  height: 225px;
+}
+
+.btn {
+display: block;
+width: 148px;
+margin: 0 auto;
+text-align: center;
+}
+@media (min-width: 576px) {
+.featured {
+  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+}
+}
+
